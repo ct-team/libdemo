@@ -1,0 +1,62 @@
+{
+  "name": "libdemo",
+  "version": "1.0.0",
+  "description": "后台库",
+  "main": "lib/index.js",
+  "keyword": "ct-dart",
+  "private": false,
+  "scripts": {
+    "serve": "cross-env BABEL_ENV=dev vue-cli-service serve",
+    "build": "cross-env BABEL_ENV=lib vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build:examples": "cross-env BABEL_ENV=examples vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "2.13.2",
+    "highlight.js": "^9.12.0",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "cross-env": "^7.0.2",
+    "markdown-it": "^11.0.0",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-container": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^7.1.0",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-router": "3.2.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 20 versions",
+    "not ie <= 8"
+  ]
+}

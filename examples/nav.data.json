@@ -1,0 +1,36 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "type": "pages"
+  },
+  {
+    "name": "开发指南",
+    "group": [
+      {
+        "name": "log",
+        "path": "/log",
+        "desc": "更新日志"
+      },
+      {
+        "name": "install",
+        "path": "/install",
+        "desc": "安装"
+      }
+    ]
+  },
+  {
+    "name": "组件",
+    "group": [
+      {
+        "items": [
+          {
+            "desc": "Image 图片展示",
+            "name": "image",
+            "path": "/image"
+          }
+        ]
+      }
+    ]
+  }
+]
